@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Clean Login\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-28 18:20+0100\n"
+"PO-Revision-Date: 2015-05-26 06:31+0100\n"
+"Last-Translator: Didrik Holstensson Kvist <didrik.kvist@gmail.com>\n"
+"Language-Team: Filipe Schüler <contato@comprasimportadas.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /wp-content/plugins/simple-login/trunk\n"
+"X-Poedit-SearchPath-1: /wp-content/plugins/simple-login\n"
+
+#: ../simple-login copy.php:37 ../simple-login.php:37
+msgid "Successfully logged in!"
+msgstr "Inloggad!"
+
+#: ../simple-login copy.php:39 ../simple-login.php:39
+msgid "Wrong credentials"
+msgstr "Felaktigt användarnamn eller lösenord"
+
+#: ../simple-login copy.php:41 ../simple-login.php:41
+msgid "Successfully logged out!"
+msgstr "Utloggad!"
+
+#: ../simple-login copy.php:69 ../simple-login.php:69
+msgid "Information updated"
+msgstr "Informationen uppdaterad"
+
+#: ../simple-login copy.php:71 copy.php:114 copy.php:763 ../simple-login.php:71
+#: ../simple-login.php:114 ../simple-login.php:760
+msgid ""
+"Passwords must be eight characters including one upper/lowercase letter, one "
+"special/symbol character and alphanumeric characters. Passwords should not "
+"contain the user's username, email, or first/last name."
+msgstr ""
+"Lösenordet måste vara minst åtta tecken långt. Av dessa måste minst ett vara "
+"en versal, ett en konsonant, ett specialtecken och en siffra. Lösenord skall "
+"inte innehålla användarnamn, e-postadress eller användarens för- och "
+"efternamn."
+
+#: ../simple-login copy.php:73 ../simple-login.php:73
+msgid "Passwords must be identical"
+msgstr "Lösenorden måste vara identiska"
+
+#: ../simple-login copy.php:75 ../simple-login.php:75
+msgid "Error updating email"
+msgstr "Fel när e-postadressen uppdaterades"
+
+#: ../simple-login copy.php:77 ../simple-login.php:77
+msgid "Something strange has ocurred"
+msgstr "Något märkligt har inträffat"
+
+#: ../simple-login copy.php:83 ../simple-login.php:83
+msgid "You need to be logged in to edit your profile"
+msgstr "Du måste vara inloggad för att redigera din profil"
+
+#: ../simple-login copy.php:110 ../simple-login.php:110
+msgid "User created"
+msgstr "Användare skapad"
+
+#: ../simple-login copy.php:112 ../simple-login.php:112
+msgid "New user created"
+msgstr "Ny användare har skapats"
+
+#: ../simple-login copy.php:116 copy.php:159 ../simple-login.php:116
+#: ../simple-login.php:159
+msgid "Username is not valid"
+msgstr "Ogiltigt användarnamn"
+
+#: ../simple-login copy.php:118 ../simple-login.php:118
+msgid "Passwords must be identical and filled"
+msgstr "Lösenorden måste vara identiska och ifyllda"
+
+#: ../simple-login copy.php:120 ../simple-login.php:120
+msgid "Email is not valid"
+msgstr "E-postadressen är ogiltig"
+
+#: ../simple-login copy.php:122 ../simple-login.php:122
+msgid "CAPTCHA is not valid, please try again"
+msgstr "Ogiltig CAPTCHA, försök igen"
+
+#: ../simple-login copy.php:124 ../simple-login.php:124
+msgid "Something strange has ocurred while created the new user"
+msgstr "Något gick fel när den nya användaren skapades"
+
+#: ../simple-login copy.php:130 ../simple-login.php:130
+msgid "You are now logged in. It makes no sense to register a new user"
+msgstr "Du är inloggad och kan alltså inte skapa en ny användare"
+
+#: ../simple-login copy.php:153 ../simple-login.php:153
+msgid "You will receive an email with the activation link"
+msgstr "Du kommer få ett e-postmeddelande med en aktiveringslänk."
+
+#: ../simple-login copy.php:155 ../simple-login.php:155
+msgid "You may receive an email with the activation link"
+msgstr "Du kommer få ett e-postmeddelande med en aktiveringslänk."
+
+#: ../simple-login copy.php:157 ../simple-login.php:157
+msgid "An error has ocurred sending the email"
+msgstr "Ett fel uppstod när e-postmeddelandet skickades"
+
+#: ../simple-login copy.php:170 ../simple-login.php:170
+msgid "You are now logged in. It makes no sense to restore your account"
+msgstr "Du är inloggad och kan därför inte återställa ditt lösenord"
+
+#: ../simple-login copy.php:349 ../simple-login.php:346
+#, php-format
+msgid ""
+"New user registered: %s <br/><br/>Please change the role from 'Stand By' to "
+"'Subscriber' or higher to allow full site access"
+msgstr ""
+"Ny användare registrerad: %s <br/><br/>Var snäll och ändra rollen från "
+"'Väntande användare' till 'Prenumerant' eller högre för att ge full åtkomst"
+
+#: ../simple-login copy.php:351 ../simple-login.php:348
+#, php-format
+msgid "New user registered: %s <br/>"
+msgstr "En ny användare har registrerats: %s <br/>"
+
+#: ../simple-login copy.php:353 ../simple-login.php:350
+msgid "New user"
+msgstr "Ny användare"
+
+#: ../simple-login copy.php:404 ../simple-login.php:401
+#, php-format
+msgid ""
+"Use the following link to restore your password: <a href='%s'>restore your "
+"password</a> <br/><br/>%s<br/>"
+msgstr ""
+"Använd följande länk för att återställa ditt lösenord: <a "
+"href='%s'>återställ lösenord</a> <br/><br/>%s<br/>"
+
+#: ../simple-login copy.php:406 ../simple-login.php:403
+msgid "Restore your password"
+msgstr "Återställ lösenord"
+
+#: ../simple-login copy.php:620 ../simple-login.php:617
+msgid "Admin area"
+msgstr "Administrationsområde"
+
+#: ../simple-login copy.php:633 ../simple-login.php:630
+msgid ""
+"Below you can check the plugin status regarding the shortcodes usage and the "
+"pages/posts which contain  it."
+msgstr ""
+"Nedan kan du se tilläggets status när det gäller kortkoder. Du kan se om de "
+"används, och i så fall på vilken sida/inlägg. "
+
+#: ../simple-login copy.php:641 copy.php:650 copy. php:659 copy.php:668
+#: ../simple-login.php:638 ../simple-login.php:647 ../simple-login.php:656
+#: ../simple-login.php:665
+msgid "Currently not used"
+msgstr "Används för närvarande inte"
+
+#: ../simple-login copy.php:643 copy.php:652 copy. php:661 copy.php:670
+#: ../simple-login.php:640 ../simple-login.php:649 ../simple-login.php:658
+#: ../simple-login.php:667
+#, php-format
+msgid "Used <a href=\"%s\">here</a>"
+msgstr "Används <a href=\"%s\">här</a>"
+
+#: ../simple-login copy.php:645 ../simple-login.php:642
+msgid "This shortcode contains login form and login information."
+msgstr ""
+"Denna kortkod innehåller inloggningsformulär och inloggningsinformation. "
+
+#: ../simple-login copy.php:654 ../simple-login.php:651
+msgid ""
+"This shortcode contains the profile editor. If you include in a page/post a "
+"link will appear on your login preview."
+msgstr ""
+"Denna kortkod innehåller profileditorn. Om du använder kortkoden på en sida/"
+"inlägg kommer en länk visas på sidan med inloggningsinformation."
+
+#: ../simple-login copy.php:663 ../simple-login.php:660
+msgid ""
+"This shortcode contains the register form. If you include in a page/post a "
+"link will appear on your login form."
+msgstr ""
+"Denna kortkod innehåller registreringsformuläret. Om du använder den på en "
+"sida/inlägg kommer en länk visas på ditt inloggningsformulär."
+
+#: ../simple-login copy.php:672 ../simple-login.php:669
+msgid ""
+"This shortcode contains the restore (lost password?) form. If you include in "
+"a page/post a link will appear on your login form."
+msgstr ""
+"Denna kortkod innehåller återställ lösenordsformuläret. Om du använder den "
+"på en sida/inlägg kommer en länk visas i ditt inloggningsformulär."
+
+#: ../simple-login copy.php:698 ../simple-login.php:695
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+#: ../simple-login copy.php:718 ../simple-login.php:715
+msgid "Admin bar"
+msgstr "Administrationslist"
+
+#: ../simple-login copy.php:720 ../simple-login.php:717
+msgid "Hide admin bar for non-admin users?"
+msgstr "Göm administrationslisten för användare som inte är administratörer?"
+
+#: ../simple-login copy.php:724 ../simple-login.php:721
+msgid "Dashboard access"
+msgstr "Åtkomst till panelen"
+
+#: ../simple-login copy.php:726 ../simple-login.php:723
+msgid "Disable dashboard access for non-admin users?"
+msgstr ""
+"Förhindra åtkomst till panelen för användare som inte är administratörer?"
+
+#: ../simple-login copy.php:727 ../simple-login.php:724
+msgid ""
+"Please note that you can only log in through <strong>wp-login.php</strong> "
+"and this plugin. <strong>wp-admin</strong> permalink will be inaccessible."
+msgstr ""
+"Notera att du endast kan logga in via <strong>wp-login.php</strong> och "
+"genom denna plugin. <strong>wp-admin</strong> permalink kommer ej kunna "
+"användas."
+
+#: ../simple-login copy.php:731 ../simple-login.php:728
+msgid "Antispam protection"
+msgstr "Spamskydd"
+
+#: ../simple-login copy.php:733 ../simple-login.php:730
+msgid "Enable captcha?"
+msgstr "Använd CAPTCHA?"
+
+#: ../simple-login copy.php:734 ../simple-login.php:731
+msgid "Honeypot antispam detection is enabled by default."
+msgstr "Honeypot-spamskydd är påslaget som standard."
+
+#: ../simple-login copy.php:735 ../simple-login.php:732
+msgid ""
+"For captcha usage the PHP-GD library needs to be enabled in your server/"
+"hosting."
+msgstr ""
+"För att använda captha behöver PHP-GD biblioteket vara påslaget på din "
+"server."
+
+#: ../simple-login copy.php:739 ../simple-login.php:736
+msgid "User role"
+msgstr "Användarroll"
+
+#: ../simple-login copy.php:741 ../simple-login.php:738
+msgid "Enable Standby role?"
+msgstr "Använd rollen 'Användare väntar'?"
+
+#: ../simple-login copy.php:742 ../simple-login.php:739
+msgid ""
+"Standby role disables all the capabilities for new users, until the "
+"administrator changes. It usefull for site with restricted components."
+msgstr ""
+"Rollen 'Användare väntar' gör att nya användare inte får full  behörighet, "
+"tills administratören ändrar detta. Detta är användbart på webbsidor där "
+"vissa delar har restriktioner."
+
+#: ../simple-login copy.php:744 ../simple-login.php:741
+msgid "Choose the role(s) in the registration form?"
+msgstr "Välj roll(er) i registreringsformuläret?"
+
+#: ../simple-login copy.php:745 ../simple-login.php:742
+msgid ""
+"This feature allows you to choose the role from the frontend, with the "
+"selected roles you want to show. You can also define an standard predefined "
+"role through a shortcode parameter, e.g. [simple-auth-register role="
+"\"contributor\"]. Anyway, you need to choose only the role(s) you want to "
+"accept to avoid security/infiltration issues."
+msgstr ""
+"Detta låter användaren välja roll i klienten. Användaren kan endast välja av "
+"de roller som du valt att presentera. Du kan också välja en roll genom att "
+"skicka med en kortkodsparameter t.ex. [simple-auth-register role="
+"\"contributor\"]. Du måste välja den roll, eller de roller, som stämmer "
+"överrens med dina säkerhetsinställningar för att undvika konflikter."
+
+#: ../simple-login copy.php:753 ../simple-login.php:750
+msgid "Hide username"
+msgstr "Göm användarnamn"
+
+#: ../simple-login copy.php:755 ../simple-login.php:752
+msgid "Hide username?"
+msgstr "Göm användarnamn?"
+
+#: ../simple-login copy.php:756 ../simple-login.php:753
+msgid "Hide username from the preview form."
+msgstr "Göm användarnamn från förhandsgranskningsformuläret?"
+
+#: ../simple-login copy.php:760 ../simple-login.php:757
+msgid "Password complexity"
+msgstr "Komplext lösenord"
+
+#: ../simple-login copy.php:762 ../simple-login.php:759
+msgid "Enable password complexity?"
+msgstr "Kräv komplext lösenord?"
+
+#: ../simple-login copy.php:767 ../simple-login.php:764
+msgid "Email notification"
+msgstr "Avisering via e-post"
+
+#: ../simple-login copy.php:769 ../simple-login.php:766
+msgid "Enable email notification for new registered users?"
+msgstr "Använd e-postavisering när ny användare registrerar sig?"
+
+#: ../simple-login copy.php:770 ../simple-login.php:767
+msgid "Please use HMTL tags for all formatting. And also you can use:"
+msgstr "Använd HTML-taggar för formatering. Du kan också använda:"
+
+#: ../simple-login copy.php:777 ../simple-login.php:774
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: ../simple-login copy.php:846 ../simple-login.php:843
+msgid "Use this widget to show the user login status and Clean Login links."
+msgstr ""
+"Använd denna widget för att visa användarens inloggningsstatus och för att "
+"visa Clean Login-länkar."
+
+#: ../simple-login copy.php:874 ../simple-login.php:871
+#: ../content/login-preview. php:13
+msgid "Edit my profile"
+msgstr "Ändra min profil"
+
+#: ../simple-login copy.php:877 ../simple-login.php:874
+msgid "Logout"
+msgstr "Logga ut"
+
+#: ../simple-login copy.php:882 ../simple-login.php:879
+#: ../content/login-form.php:20 ../content/restore-new.php:15
+msgid "Log in"
+msgstr "Logga in"
+
+#: ../simple-login copy.php:883 ../simple-login.php:880
+#: ../content/login-form.php:36 ../content/register-form.php:56
+msgid "Register"
+msgstr "Registrering"
+
+#: ../simple-login copy.php:884 ../simple-login.php:881
+#: ../content/login-form.php:32
+msgid "Lost password?"
+msgstr "Glömt lösenord?"
+
+#: ../simple-login copy.php:897 ../simple-login.php:894
+msgid "User login status"
+msgstr "Användarens inloggningsstatus"
+
+#: ../simple-login copy.php:901 ../simple-login.php:898
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../content/login-edit.php:9
+msgid "General information"
+msgstr "Allmän information"
+
+#: ../content/login-edit.php:14
+msgid "First name"
+msgstr "Förnamn"
+
+#: ../content/login-edit.php:19
+msgid "Last name"
+msgstr "Efternamn"
+
+#: ../content/login-edit.php:24 ../content/register-form.php:11
+msgid "E-mail"
+msgstr "E-postadress"
+
+#: ../content/login-edit.php:30
+msgid "Change password"
+msgstr "Byt lösenord"
+
+#: ../content/login-edit.php:32
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr "Om du vill byta lösenord skriv in det nya, annars lämnas fälten tomma."
+
+#: ../content/login-edit.php:37 ../content/register-form.php:20
+msgid "New password"
+msgstr "Nytt lösenord"
+
+#: ../content/login-edit.php:42 ../content/register-form.php:24
+msgid "Confirm password"
+msgstr "Bekräfta lösenord"
+
+#: ../content/login-edit.php:49
+msgid "Update profile"
+msgstr "Uppdatera profil"
+
+#: ../content/login-form.php:11 ../content/register-form.php:7
+msgid "Username"
+msgstr "Användarnamn"
+
+#: ../content/login-form.php:15
+msgid "Password"
+msgstr "Lösenord"
+
+#: ../content/login-form.php:25
+msgid "Remember?"
+msgstr "Kom ihåg?"
+
+#: ../content/login-preview.php:11
+msgid "Log out"
+msgstr "Logga ut"
+
+#: ../content/register-form.php:30
+msgid "Type the text above"
+msgstr "Skriv texten ovan"
+
+#: ../content/register-form.php:39
+msgid "Choose your role:"
+msgstr "Välj din användarroll:"
+
+#: ../content/restore-form.php:7
+msgid "Username (or E-mail)"
+msgstr "Användarnamn, eller e-postadress"
+
+#: ../content/restore-form.php:18
+msgid "Restore password"
+msgstr "Återställ lösenord"
+
+#: ../content/restore-new.php:6
+msgid "Your new password is"
+msgstr "Ditt nya lösenord är"
